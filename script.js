@@ -1,7 +1,7 @@
-// Replace this with your actual backend API URL
+// Replace this with your API URL
 const apiUrl = 'https://energy-ushr.onrender.com/get_data';
 
-// Fetch data from API and display it in the table
+// Fetch data and populate the table
 fetch(apiUrl)
     .then(response => response.json())
     .then(data => {
